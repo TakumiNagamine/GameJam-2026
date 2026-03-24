@@ -1,0 +1,95 @@
+﻿  EnemyManager.cpp
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(26,29): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Manager/EnemyManager/EnemyManager.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(27,30): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Manager/EnemyManager/EnemyManager.cpp' をコンパイルしています)
+  
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Manager/EnemyManager/EnemyManager.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Manager\EnemyManager\EnemyManager.cpp(52,54): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+C:\PG\GameJam2026\L_Team_Template\Manager\EnemyManager\EnemyManager.cpp(176,67): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\PG\GameJam2026\L_Team_Template\Manager\EnemyManager\EnemyManager.cpp(176,48): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\PG\GameJam2026\L_Team_Template\Manager\EnemyManager\EnemyManager.cpp(213,46): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+  SceneManager.cpp
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(26,29): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Manager/SceneManager/SceneManager.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(27,30): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Manager/SceneManager/SceneManager.cpp' をコンパイルしています)
+  
+  UnitManager.cpp
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(26,29): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Manager/UnitManager/UnitManager.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(27,30): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Manager/UnitManager/UnitManager.cpp' をコンパイルしています)
+  
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Manager/UnitManager/UnitManager.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Manager\UnitManager\UnitManager.cpp(216,46): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+  Enemy.cpp
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(26,29): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Object/Enemy/Enemy.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(27,30): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Object/Enemy/Enemy.cpp' をコンパイルしています)
+  
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Object/Enemy/Enemy.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Object\Enemy\Enemy.cpp(91,22): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\PG\GameJam2026\L_Team_Template\Object\Enemy\Enemy.cpp(96,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\PG\GameJam2026\L_Team_Template\Object\Enemy\Enemy.cpp(101,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\PG\GameJam2026\L_Team_Template\Object\Enemy\Enemy.cpp(106,21): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Unit.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Object/Unit/Unit.cpp' をコンパイルしています)
+  
+  EndScene.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/EndScene/EndScene.cpp' をコンパイルしています)
+  
+  GameMain.cpp
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(26,29): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Scene/GameMain/GameMain.cpp' をコンパイルしています)
+  
+C:\PG\GameJam2026\L_Team_Template\Object\Base\Base.h(27,30): warning C4244: 'return': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル 'Scene/GameMain/GameMain.cpp' をコンパイルしています)
+  
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/GameMain/GameMain.cpp' をコンパイルしています)
+  
+  ResultClearScene.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/ResultScene/ResultClearScene.cpp' をコンパイルしています)
+  
+  ResultMissScene.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/ResultScene/ResultMissScene.cpp' をコンパイルしています)
+  
+  TitleScene.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/TitleScene/TitleScene.cpp' をコンパイルしています)
+  
+  TutorialCharacter.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/TutorialScene/TutorialCharacter.cpp' をコンパイルしています)
+  
+  TutorialCompany.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/TutorialScene/TutorialCompany.cpp' をコンパイルしています)
+  
+  TutorialEnemy.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/TutorialScene/TutorialEnemy.cpp' をコンパイルしています)
+  
+  TutorialScene.cpp
+C:\dxlib\DxFunctionWin.h(268,1): warning C4010: 単一行コメント (//) に、行連結文字があります。
+  (ソース ファイル 'Scene/TutorialScene/TutorialScene.cpp' をコンパイルしています)
+  
+  コードを生成中...
+C:\PG\GameJam2026\L_Team_Template\Manager\EnemyManager\EnemyManager.cpp(234,1): warning C4715: 'EnemyManager::GetDamage': 値を返さないコントロール パスがあります。
+  L_Team_Template.vcxproj -> C:\PG\GameJam2026\L_Team_Template\x64\Debug\L_Team_Template.exe
