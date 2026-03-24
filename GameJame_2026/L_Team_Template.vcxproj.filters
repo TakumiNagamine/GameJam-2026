@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene\GameMain\GameMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SceneBase\SceneBase.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D\Vector2D.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GameObject\GameObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InputControl\InputControl.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade\Fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Helth\HelthObject.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Base\Base.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager\SceneManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\ResourceManager\ResourceManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\EnemyManager\EnemyManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene\TitleScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene\ResultClearScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\EndScene\EndScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TutorialScene\TutorialScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\Timer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\CollisionManager\CollisionManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TutorialScene\TutorialCharacter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TutorialScene\TutorialEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit\Unit.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\UnitManager\UnitManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GameDataManager\GameDataManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\CostManager\CostManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ResultScene\ResultMissScene.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TutorialScene\TutorialCompany.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene\GameMain\GameMain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy\Enemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SceneBase\SceneBase.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D\Vector2D.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D\UserTemplate.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GameObject\GameObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InputControl\InputControl.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade\Fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Helth\HelthObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Base\Base.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager\SceneManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\ResourceManager\ResourceManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\EnemyManager\EnemyManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene\TitleScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene\ResultClearScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\EndScene\EndScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TutorialScene\TutorialScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\Timer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\CollisionManager\CollisionManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TutorialScene\TutorialCharacter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TutorialScene\TutorialEnemy.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\Unit.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\UnitManager\UnitManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GameDataManager\GameDataManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\CostManager\CostManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit\UnitType.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ResultScene\ResultMissScene.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\Color.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TutorialScene\TutorialCompany.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resource\Sounds\SE\coin.mp3" />
+    <Media Include="Resource\Sounds\SE\kursor.mp3" />
+    <Media Include="Resource\Sounds\SE\kursor_2.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor_2.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor_push.mp3" />
+    <Media Include="Resource\Sounds\BGM\title_BGM.mp3" />
+    <Media Include="Resource\Sounds\BGM\result_win.mp3" />
+    <Media Include="Resource\Sounds\SE\battle_se.mp3" />
+    <Media Include="Resource\Sounds\BGM\game_main_prov.mp3" />
+    <Media Include="Resource\Sounds\BGM\result_clear_prov.mp3" />
+    <Media Include="Resource\Sounds\BGM\result_gameover_prov.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor_tutorial.mp3" />
+    <Media Include="Resource\Sounds\SE\set_player.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Sounds\SE\hosi_irasutoya.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Sounds\BGM\fruit_apple_yellow.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 1.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 4.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 5.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ1 攻撃モーション.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ１.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ２ 攻撃モーション.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ２.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\自軍アイコン.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\敵キャラ.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\end_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\fruit_ao_ringo.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\help_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\StageBack_img.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\start_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\title_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\triangle_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\テスト.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Enemy.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Icon.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI 1.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI 2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI 3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI 4.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI 5.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Unit.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Unit_attack.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Unit2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Unit2_attack.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\game_main.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\icon_23.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\kyara_zukan.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\rizaruto.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\rizaruto_22.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\sousagamen.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\teki_zukan.jpg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\A.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\end_back_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\game_main.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\game_main2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\game_main3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Heart.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\hidari_yazirusi.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\hidari_yazirusi_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\icon_.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\icon_23.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\kyara_zukan.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\migi_yazirusi.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\migi_yazirusi_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\sousagamen.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\Sword.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\teki_zukan.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\title_back.jpeg">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI_1.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI_3.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI_4.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\UI_5.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\game_main_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\title_back_img.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\NumWhite.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\audiostock_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\illust_name.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\title_img_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\thank_U_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\team_name.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\name_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\illust_all_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="Resource\Images\BGM_SE_2.png">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

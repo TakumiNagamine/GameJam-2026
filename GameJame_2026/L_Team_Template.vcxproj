@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{19ac9179-e042-4ed2-81d2-8c82bd852416}</ProjectGuid>
+    <RootNamespace>LTeamTemplate</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\dxlib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\dxlib</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\dxlib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AppMain.cpp" />
+    <ClCompile Include="Manager\CostManager\CostManager.cpp" />
+    <ClCompile Include="Manager\CollisionManager\CollisionManager.cpp" />
+    <ClCompile Include="Manager\GameDataManager\GameDataManager.cpp" />
+    <ClCompile Include="Scene\ResultScene\ResultMissScene.cpp" />
+    <ClCompile Include="Scene\EndScene\EndScene.cpp" />
+    <ClCompile Include="Manager\EnemyManager\EnemyManager.cpp" />
+    <ClCompile Include="Object\Base\Base.cpp" />
+    <ClCompile Include="Object\Helth\HelthObject.cpp" />
+    <ClCompile Include="Fade\Fade.cpp" />
+    <ClCompile Include="InputControl\InputControl.cpp" />
+    <ClCompile Include="Object\Enemy\Enemy.cpp" />
+    <ClCompile Include="Object\GameObject\GameObject.cpp" />
+    <ClCompile Include="Manager\ResourceManager\ResourceManager.cpp" />
+    <ClCompile Include="Scene\ResultScene\ResultClearScene.cpp" />
+    <ClCompile Include="Manager\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="Scene\GameMain\GameMain.cpp" />
+    <ClCompile Include="Object\Unit\Unit.cpp" />
+    <ClCompile Include="Scene\SceneBase\SceneBase.cpp" />
+    <ClCompile Include="Scene\TitleScene\TitleScene.cpp" />
+    <ClCompile Include="Scene\TutorialScene\TutorialCharacter.cpp" />
+    <ClCompile Include="Scene\TutorialScene\TutorialCompany.cpp" />
+    <ClCompile Include="Scene\TutorialScene\TutorialEnemy.cpp" />
+    <ClCompile Include="Scene\TutorialScene\TutorialScene.cpp" />
+    <ClCompile Include="Timer\Timer.cpp" />
+    <ClCompile Include="Manager\UnitManager\UnitManager.cpp" />
+    <ClCompile Include="Vector2D\Vector2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Manager\Color.h" />
+    <ClInclude Include="Manager\CostManager\CostManager.h" />
+    <ClInclude Include="Manager\CollisionManager\CollisionManager.h" />
+    <ClInclude Include="Manager\GameDataManager\GameDataManager.h" />
+    <ClInclude Include="Object\Unit\UnitType.h" />
+    <ClInclude Include="Scene\ResultScene\ResultMissScene.h" />
+    <ClInclude Include="Scene\EndScene\EndScene.h" />
+    <ClInclude Include="Manager\EnemyManager\EnemyManager.h" />
+    <ClInclude Include="Object\Base\Base.h" />
+    <ClInclude Include="Object\Helth\HelthObject.h" />
+    <ClInclude Include="Fade\Fade.h" />
+    <ClInclude Include="InputControl\InputControl.h" />
+    <ClInclude Include="Object\Enemy\Enemy.h" />
+    <ClInclude Include="Object\GameObject\GameObject.h" />
+    <ClInclude Include="Manager\ResourceManager\ResourceManager.h" />
+    <ClInclude Include="Scene\ResultScene\ResultClearScene.h" />
+    <ClInclude Include="Manager\SceneManager\SceneManager.h" />
+    <ClInclude Include="Scene\GameMain\GameMain.h" />
+    <ClInclude Include="Object\Unit\Unit.h" />
+    <ClInclude Include="Scene\SceneBase\SceneBase.h" />
+    <ClInclude Include="Scene\TitleScene\TitleScene.h" />
+    <ClInclude Include="Scene\TutorialScene\TutorialCharacter.h" />
+    <ClInclude Include="Scene\TutorialScene\TutorialCompany.h" />
+    <ClInclude Include="Scene\TutorialScene\TutorialEnemy.h" />
+    <ClInclude Include="Scene\TutorialScene\TutorialScene.h" />
+    <ClInclude Include="Timer\Timer.h" />
+    <ClInclude Include="Manager\UnitManager\UnitManager.h" />
+    <ClInclude Include="Vector2D\UserTemplate.h" />
+    <ClInclude Include="Vector2D\Vector2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resource\Sounds\BGM\game_main_prov.mp3" />
+    <Media Include="Resource\Sounds\BGM\result_clear_prov.mp3" />
+    <Media Include="Resource\Sounds\BGM\result_gameover_prov.mp3" />
+    <Media Include="Resource\Sounds\BGM\result_win.mp3" />
+    <Media Include="Resource\Sounds\BGM\title_BGM.mp3" />
+    <Media Include="Resource\Sounds\SE\battle_se.mp3" />
+    <Media Include="Resource\Sounds\SE\coin.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor_2.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor_push.mp3" />
+    <Media Include="Resource\Sounds\SE\cursor_tutorial.mp3" />
+    <Media Include="Resource\Sounds\SE\kursor.mp3" />
+    <Media Include="Resource\Sounds\SE\kursor_2.mp3" />
+    <Media Include="Resource\Sounds\SE\set_player.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\Images\A.png" />
+    <Image Include="Resource\Images\audiostock_2.png" />
+    <Image Include="Resource\Images\BGM_SE_2.png" />
+    <Image Include="Resource\Images\end_back_img.png" />
+    <Image Include="Resource\Images\end_img.png" />
+    <Image Include="Resource\Images\Enemy.png" />
+    <Image Include="Resource\Images\fruit_ao_ringo.png" />
+    <Image Include="Resource\Images\game_main.jpg" />
+    <Image Include="Resource\Images\game_main.png" />
+    <Image Include="Resource\Images\game_main2.png" />
+    <Image Include="Resource\Images\game_main3.png" />
+    <Image Include="Resource\Images\game_main_2.png" />
+    <Image Include="Resource\Images\Heart.png" />
+    <Image Include="Resource\Images\help_img.png" />
+    <Image Include="Resource\Images\hidari_yazirusi.png" />
+    <Image Include="Resource\Images\hidari_yazirusi_2.png" />
+    <Image Include="Resource\Images\Icon.png" />
+    <Image Include="Resource\Images\icon_.png" />
+    <Image Include="Resource\Images\icon_23.jpg" />
+    <Image Include="Resource\Images\icon_23.png" />
+    <Image Include="Resource\Images\illust_all_2.png" />
+    <Image Include="Resource\Images\illust_name.png" />
+    <Image Include="Resource\Images\kyara_zukan.jpg" />
+    <Image Include="Resource\Images\kyara_zukan.png" />
+    <Image Include="Resource\Images\migi_yazirusi.png" />
+    <Image Include="Resource\Images\migi_yazirusi_2.png" />
+    <Image Include="Resource\Images\name_2.png" />
+    <Image Include="Resource\Images\NumWhite.png" />
+    <Image Include="Resource\Images\rizaruto.jpg" />
+    <Image Include="Resource\Images\rizaruto_22.jpg" />
+    <Image Include="Resource\Images\sousagamen.jpg" />
+    <Image Include="Resource\Images\sousagamen.png" />
+    <Image Include="Resource\Images\StageBack_img.jpg" />
+    <Image Include="Resource\Images\start_img.png" />
+    <Image Include="Resource\Images\Sword.png" />
+    <Image Include="Resource\Images\team_name.png" />
+    <Image Include="Resource\Images\teki_zukan.jpg" />
+    <Image Include="Resource\Images\teki_zukan.png" />
+    <Image Include="Resource\Images\thank_U_2.png" />
+    <Image Include="Resource\Images\title_back.jpeg" />
+    <Image Include="Resource\Images\title_back_img.png" />
+    <Image Include="Resource\Images\title_img.png" />
+    <Image Include="Resource\Images\title_img_2.png" />
+    <Image Include="Resource\Images\triangle_img.png" />
+    <Image Include="Resource\Images\UI 1.png" />
+    <Image Include="Resource\Images\UI 2.png" />
+    <Image Include="Resource\Images\UI 3.png" />
+    <Image Include="Resource\Images\UI 4.png" />
+    <Image Include="Resource\Images\UI 5.png" />
+    <Image Include="Resource\Images\UI_1.png" />
+    <Image Include="Resource\Images\UI_2.png" />
+    <Image Include="Resource\Images\UI_3.png" />
+    <Image Include="Resource\Images\UI_4.png" />
+    <Image Include="Resource\Images\UI_5.png" />
+    <Image Include="Resource\Images\Unit.png" />
+    <Image Include="Resource\Images\Unit2.png" />
+    <Image Include="Resource\Images\Unit2_attack.png" />
+    <Image Include="Resource\Images\Unit_attack.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 1.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 2.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 3.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 4.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\UI 5.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ1 攻撃モーション.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ１.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ２ 攻撃モーション.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\キャラ２.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\敵キャラ.png" />
+    <Image Include="Resource\Images\ゲームジャムPNGのコピー\自軍アイコン.png" />
+    <Image Include="Resource\Images\テスト.png" />
+    <Image Include="Resource\Sounds\BGM\fruit_apple_yellow.png" />
+    <Image Include="Resource\Sounds\SE\hosi_irasutoya.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
