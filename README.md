@@ -27,7 +27,8 @@
 - ゲームメイン処理全般の実装
 - ユニットシステムの設計・実装
 - ゲーム全体の進行制御
-- 簡単なシナリオ背景・設定（イラスト担当の方に送った内容です：https://drive.google.com/drive/folders/16eEsA17jMwCnhRuQU53_yG3YNVuR6lNc?usp=sharing）
+- 簡単なシナリオ背景・設定
+イラスト担当の方に送った内容です：https://drive.google.com/drive/folders/16eEsA17jMwCnhRuQU53_yG3YNVuR6lNc?usp=sharing
 
 ## 制作背景
 ゲームジャムのテーマ「まわす」をもとに企画しました。  
